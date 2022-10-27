@@ -1,0 +1,14 @@
+.parent {
+  background-color: black;
+  height: 400px;
+  width: 400px;
+}
+.child {
+  background-color: aliceblue;
+  height: 50px;
+  width: 50px;
+  transition: 0.3s linear;
+}
+.parent:hover .child {
+  transform: translateX(100%);
+}
